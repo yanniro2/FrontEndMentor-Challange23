@@ -20,7 +20,7 @@ function App()
 
   return (
     <div className="App w-screen h-screen m-0 p-0 box-border font-Robik bg-Very-dark-blue flex items-center justify-center Mobile:h-full Mobile:w-full Mobile:py-8">
-      <div className="w-4/5 h-3/5 gap-5 flex Mobile:flex-col ">
+      <div className="w-4/5 h-3/5 gap-5 flex Mobile:flex-col large:h-2/3">
         <div className="left w-1/4 h-full bg-Dark-blue rounded-xl flex flex-col Mobile:w-full ">
           <div className="profile bg-Blue  h-[70%] rounded-xl drop-shadow p-5 justify-evenly flex flex-col Mobile:flex-row Mobile:items-center Mobile:justify-center Mobile:gap-5">
             <img src={profile} alt="img profile" className="w-[4rem] h-[4rem] object-center border-2 rounded-full border-[#fff] drop-shadow shadow large:w-[5rem] large:h-[5rem]" />
